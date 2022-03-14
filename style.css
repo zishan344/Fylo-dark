@@ -1,0 +1,44 @@
+/* custome font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;800&display=swap");
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+/* global design */
+/* color */
+.signup-bg {
+  background-color: hsl(217, 28%, 15%);
+}
+.main-bg {
+  background-color: hsl(217, 28%, 15%);
+}
+.footer-bg {
+  background-color: hsl(216, 53%, 9%);
+}
+.testimonials-bg {
+  background-color: hsl(219, 30%, 18%);
+}
+.cyan {
+  background-color: hsl(176, 68%, 64%);
+}
+.blue {
+  background-color: hsl(198, 60%, 50%);
+}
+.error {
+  color: hsl(0, 100%, 63%);
+}
+.text {
+  color: hsl(0, 0%, 100%);
+}
+
+/* - Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+- Dark Blue (main background): hsl(218, 28%, 13%)
+- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (testimonials background): hsl(219, 30%, 18%) */
+
+/* - Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+- Light Red (error): hsl(0, 100%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%) */
