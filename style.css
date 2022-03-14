@@ -44,6 +44,9 @@ img.quote {
   height: 30px;
   position: absolute;
 }
+.custome-margin {
+  margin: 100px auto;
+}
 /* - Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
 - Dark Blue (main background): hsl(218, 28%, 13%)
 - Dark Blue (footer background): hsl(216, 53%, 9%)
