@@ -33,6 +33,17 @@ font-family: 'Raleway', sans-serif; */
 .heading-font {
   font-size: 2.8rem;
 }
+.c-img {
+  width: 45px;
+}
+.margin-0 {
+  margin: 0;
+}
+img.quote {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+}
 /* - Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
 - Dark Blue (main background): hsl(218, 28%, 13%)
 - Dark Blue (footer background): hsl(216, 53%, 9%)
