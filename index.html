@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
-    <link
+     <!-- fontawesome kit -->
+     <script src="https://kit.fontawesome.com/d6aef9706e.js" crossorigin="anonymous"></script>
+     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
@@ -23,14 +24,14 @@
     <link rel="stylesheet" href="style.css" />
     <title>Fylo-landing-page</title>
   </head>
-  <body class="main-bg">
+  <body class="main-bg" >
     <header>
-      <section class="container-fluid">
+      <section class="container-fluid  main-bg" >
          <div class="container">
            <nav class="navbar container navbar-expand-lg navbar-dark">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"
-              ><img class="w-100" src="./images/logo.svg" alt=""
+              ><img class="logo" src="./images/logo.svg" alt=""
             /></a>
             <button
               class="navbar-toggler"
@@ -89,7 +90,7 @@
       
         
     </header>
-    <main class="my-5 py-5">
+    <main class="mt-5 py-5  main-bg ">
       <!-- section number one -->
       <section class="container">
         <div class="row">
@@ -126,10 +127,10 @@
       <!-- section number two -->
       <section class="container my-5">
        <div class="row align-items-center">
-         <div class="col-md-6">
+         <div class="col-md-12 col-lg-6">
            <img class="w-100" src="./images/illustration-stay-productive.png" alt="">
          </div>
-         <div class="col-md-6 text">
+         <div class="col-md-12 col-lg-6 text">
            <h2 class="heading-font">Stay productive, whereever you are</h2>
            <p>Never let location be an issue when accessing your files.Fylo has you covered for all of your life storage needs.</p>
            <p>
@@ -195,7 +196,7 @@
                <div class="col-lg-7 col-md-12">
                 <input class="w-100 px-2 border-0 rounded-pill py-2"placeholder="Enter your email" type="text">
                </div>
-               <div class="col-lg-4 col-md-6">
+               <div class="col-lg-4 col-md-6 col-8">
                 <button class="btn w-100 text fw-bold rounded cyan">
                   Get Started For Free
                 </button>
@@ -207,7 +208,58 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer-bg">
+      <section class="container">
+        <img class="logo my-5"src="./images/logo.svg" alt="">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="d-flex">
+              <img src="./images/icon-location.svg" alt="" class="icon">
+            <p  class="text ms-2">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus amet, magni consectetur aliquam inventore fuga tempora repellendus quo cupiditate.
+            </p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row justify-content-evenly">
+              <div class="col-md-4">
+                <div class="call d-flex">
+                  <img src="./images/icon-phone.svg" class="icon" alt="">
+                  <p class="ms-3 text">+1-453-123-4567</p>
+                </div>
+                <div class="eamil d-flex my-4">
+                  <img src="./images/icon-email.svg" class="icon" alt="">
+                  <p class="ms-3 text">example@fylo.com</p>
+                </div>
+              </div>
+              <div class="col-md-2 text">
+                <h5>About Us</h5>
+                <ul class="padding-0">
+                  <li><a  class="text fw-bold" href="">jobs</a></li>
+                  <li><a  class="text fw-bold" href="">Press</a></li>
+                  <li><a  class="text fw-bold" href="">Blog</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 text">
+                <h5>Contact Us</h5>
+                <ul class="padding-0">
+                  <li><a  class="text fw-bold" href="">Tems</a></li>
+                  <li><a  class="text fw-bold" href="">privacy</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 text">
+                 
+                <ul class="padding-0 d-flex gx-2 ">
+                  <li class="cusotom-icon-style ms-2"><a href=""><i class="icon d-flex align-items-center justify-content-center text fa-brands fa-facebook"></i></a></li>
+                  <li class="cusotom-icon-style ms-2"><a href=""><i class="icon d-flex align-items-center justify-content-center text fa-brands fa-twitter"></i></a></li>
+                  <li class="cusotom-icon-style ms-2"><a href=""><i class="icon d-flex align-items-center justify-content-center text fa-brands fa-instagram"></i></a></li>
+                </ul> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
 
     <!-- bootstrap js -->
     <script

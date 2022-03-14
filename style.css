@@ -4,6 +4,17 @@
 font-family: 'Raleway', sans-serif; */
 
 /* global design */
+* {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  width: 150px;
+  max-width: 100%;
+}
 /* color */
 .signup-bg {
   background-color: hsl(217, 28%, 15%);
@@ -35,6 +46,7 @@ font-family: 'Raleway', sans-serif; */
 }
 .c-img {
   width: 45px;
+  height: 45px;
 }
 .margin-0 {
   margin: 0;
@@ -46,6 +58,18 @@ img.quote {
 }
 .custome-margin {
   margin: 100px auto;
+}
+.icon {
+  width: 23px;
+  height: 23px;
+}
+.padding-0 {
+  padding: 0;
+}
+li.cusotom-icon-style {
+  padding: 5px;
+  border: 1px solid hsl(198, 60%, 50%);
+  border-radius: 50%;
 }
 /* - Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
 - Dark Blue (main background): hsl(218, 28%, 13%)
